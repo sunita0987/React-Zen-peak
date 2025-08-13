@@ -34,11 +34,11 @@ const AboutUs = () => {
             diversified portfolio primed for long-term success.
           </p>
         </div>
-        <div className="flex-1">
+        <div className="flex">
           <img
             src={circle}
             alt="About Us"
-            className="w-full h-auto"
+            className="h-100 w-full"
           />
         </div>
       </div>
