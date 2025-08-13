@@ -16,6 +16,9 @@ import Profit from "../assets/images/profit.png"
 import Risk from '../assets/images/risk.png'
 import Money from '../assets/images/money.png'
 
+import { Inquires, Invester, Media, Startup } from './icon'
+
+
 
 
 
@@ -80,3 +83,27 @@ export const Portfolio_Data = [
     info: "Pulvinar scelerisque viverra at donec nunc orci ullam corper penatibus crasigula praesent dictum fames suscipit nam. Fermentum praesent vel adipiscing eget dictum. Risus id tellus .",
   },
 ];
+
+
+export const Crypto_World_Data = [
+    {
+        image: Inquires,
+        title: 'General inquiries',
+        info: 'General@gmail.com',
+    },
+    {
+        image: Invester,
+        title: 'Investor relations',
+        info: 'Invetorrelationsgmail.com',
+    },
+    {
+        image: Startup,
+        title: 'Startup founders',
+        info: 'Startup@gmail.com',
+    },
+    {
+        image: Media,
+        title: 'Media and press',
+        info: 'Mediai@gmail.com',
+    },
+]
