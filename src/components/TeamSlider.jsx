@@ -8,7 +8,7 @@ const TeamSection = () => {
   return (
     <div className="bg-[#f9f6f3] py-10">
       <div
-        className="min-h-screen bg-cover bg-center  relative overflow-hidden"
+        className="bg-cover bg-center"
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         <h2 className="text-left text-4xl font-semibold mb-8 text-[#A68272] ml-50">
@@ -33,7 +33,7 @@ const TeamSection = () => {
               {activeIndex === index && (
                 <div className="absolute inset-0 bg-[#A68272] bg-opacity-80 text-white p-5 flex flex-col justify-center items-center text-center rounded-lg transition-all duration-300">
                   <h1 className="text-xl font-bold mb-2"> Bio</h1>
-                  <p className="text-sm w-[400px]">{member.bio}</p>
+                  <p className="text-sm w-[300px]">{member.bio}</p>
                 </div>
               )}
               <div className="mt-3 text-center">

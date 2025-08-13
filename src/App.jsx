@@ -5,6 +5,8 @@ import HeroSection from './components/HeroSection'
 import AboutUs from './components/AboutUS'
 import Team from './components/Team'
 import TeamSlider from './components/TeamSlider'
+import Portfolio from './components/PortFolio'
+import AssetsAllocation from './components/AssetsAllocation'
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
     <AboutUs/>
     <Team/>
     <TeamSlider />
+    <Portfolio/>
+    <AssetsAllocation/>
     </>
   )
 }
